@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- TOP NAV -->
   <header class="top-nav">
     <div class="logo">LJ</div>
     <nav>
@@ -19,42 +20,43 @@
   </header>
 
   <main>
-    <!-- HERO SECTION -->
+    <!-- HERO -->
     <section class="hero">
       <div class="hero-text">
         <p class="tag">Aspiring Software Engineer</p>
         <h1>Hi, I'm <span class="accent">Latazia</span>.</h1>
         <p class="subtitle">
           Career-switcher with a background in psychology and health & social care,
-          now building modern, user-friendly web applications.
+          now building modern, user-friendly web applications with a mental health
+          and wellbeing focus.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn-primary">View My Projects</a>
-          <a href="#contact" class="btn-secondary">Contact Me</a>
+          <a href="#projects" class="btn-primary">View my projects</a>
+          <a href="#contact" class="btn-secondary">Contact me</a>
         </div>
       </div>
       <div class="hero-card">
         <h2>Quick profile</h2>
         <ul>
           <li>📍 London, UK</li>
-          <li>🎓 Psychosocial / Psychology background</li>
-          <li>💻 Learning web development & software engineering</li>
+          <li>🧠 Psychosocial / health & social care background</li>
+          <li>💻 Learning front-end development (HTML, CSS, JS)</li>
         </ul>
       </div>
     </section>
 
     <!-- ABOUT -->
     <section id="about" class="section">
-      <h2>About Me</h2>
+      <h2>About me</h2>
       <p>
-        I'm a neurodiverse (autistic) learner transitioning into tech. I care about
-        clear, accessible design and building tools that actually help people in
-        real life – especially around mental health, organisation, and resilience.
+        I'm a neurodiverse (autistic) learner transitioning into software engineering.
+        I care about clear, accessible design and building tools that genuinely support
+        people in real life – especially around mental health, organisation, and resilience.
       </p>
       <p>
-        Right now I'm focusing on front-end web development and building a portfolio
-        of projects using HTML, CSS, and JavaScript. This page will grow as I add
-        more apps and experiments.
+        My background in psychology and health & social care helps me think about users'
+        emotions, needs and experiences, while my growing tech skills let me turn those
+        ideas into working apps.
       </p>
     </section>
 
@@ -62,118 +64,222 @@
     <section id="skills" class="section">
       <h2>Skills</h2>
       <div class="grid-3">
-        <div class="card">
+        <article class="card">
           <h3>Technical</h3>
           <ul>
             <li>HTML5 & CSS3</li>
             <li>JavaScript (beginner–intermediate)</li>
-            <li>Visual Studio / VS Code</li>
-            <li>Git & GitHub (learning)</li>
+            <li>VS Code</li>
+            <li>Git & GitHub</li>
           </ul>
-        </div>
-        <div class="card">
+        </article>
+        <article class="card">
           <h3>Transferable</h3>
           <ul>
             <li>Attention to detail</li>
-            <li>Calm under pressure</li>
             <li>Working with vulnerable people</li>
+            <li>Calm under pressure</li>
             <li>Clear written communication</li>
           </ul>
-        </div>
-        <div class="card">
-          <h3>Currently Learning</h3>
+        </article>
+        <article class="card">
+          <h3>Currently learning</h3>
           <ul>
             <li>JavaScript projects</li>
             <li>Responsive design</li>
-            <li>Version control workflows</li>
+            <li>APIs & data fetching</li>
           </ul>
-        </div>
+        </article>
       </div>
     </section>
 
     <!-- PROJECTS -->
-   <section id="projects" class="section">
-  <h2>Projects</h2>
-  <p class="section-intro">
-    Here are some of the projects I’ve built so far, with a focus on mental health,
-    wellbeing, and user-friendly design. I’ll keep adding more as I learn.
-  </p>
-
-  <div class="grid-3">
-    <!-- PROJECT 1: MENTAL STRENGTH QUIZ -->
-    <article class="card project-card">
-      <h3>01. Mental Strength Quiz</h3>
-      <p>
-        An interactive quiz designed to help users reflect on their mental wellbeing,
-        tracking responses and giving meaningful feedback. Built with accessibility,
-        clarity and user-friendly design in mind.
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="section-intro">
+        A selection of projects focused on mental health, wellbeing and clear,
+        accessible user experience. More projects will be added as I continue learning.
       </p>
-      <ul class="tags">
-        <li>HTML</li><li>C#</li><li>JavaScript</li><li>Mental Health</li>
-      </ul>
-      <a href="https://github.com/latazia-j/mental-strength-quiz" class="link" target="_blank" rel="noopener noreferrer">
-        View code on GitHub →
-      </a><br />
-      <a href="https://latazia-j.github.io/mental-strength-quiz/" class="link" target="_blank" rel="noopener noreferrer">
-        Live demo →
-      </a>
-    </article>
 
-    <!-- PROJECT 2: MENTAL STRENGTH TRACKER -->
-    <article class="card project-card">
-      <h3>02. Mental Strength Tracker</h3>
-      <p>
-        A responsive tracker that empowers users to log and visualise their mood,
-        habits and mental-wellbeing over time. Built with user-friendly UI,
-        accessible design and simple JavaScript logic.
-      </p>
-      <ul class="tags">
-        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Wellbeing</li>
-      </ul>
-      <a href="https://github.com/latazia-j/mental-strength-tracker" class="link" target="_blank" rel="noopener noreferrer">
-        View code on GitHub →
-      </a><br />
-      <a href="https://latazia-j.github.io/mental-strength-tracker/" class="link" target="_blank" rel="noopener noreferrer">
-        Live demo →
-      </a>
-    </article>
+      <div class="grid-3">
+        <!-- PROJECT 1: MENTAL STRENGTH QUIZ -->
+        <article class="card project-card">
+          <h3>01. Mental Strength Quiz</h3>
+          <p>
+            An interactive quiz that helps users reflect on their mental wellbeing and
+            how they’re coping. It asks gentle questions and provides basic feedback
+            based on the score. Not a diagnostic tool – just a reflection aid.
+          </p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Mental health</li>
+          </ul>
+          <div class="project-actions">
+            <a
+              href="https://github.com/latazia-j/mental-strength-quiz"
+              class="btn-secondary btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View code
+            </a>
+            <a
+              href="https://latazia-j.github.io/mental-strength-quiz/"
+              class="btn-primary btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live demo
+            </a>
+          </div>
+        </article>
 
-    <!-- PROJECT 3: PORTFOLIO SITE -->
-    <article class="card project-card">
-      <h3>03. Developer Portfolio (this site)</h3>
-      <p>
-        A clean, responsive portfolio to showcase my journey into software engineering,
-        my projects, and my background in psychology and health & social care.
-      </p>
-      <ul class="tags">
-        <li>HTML</li><li>CSS</li><li>JavaScript</li>
-      </ul>
-      <a href="https://github.com/latazia-j/dev-portfolio" class="link" target="_blank" rel="noopener noreferrer">
-        View code on GitHub →
-      </a>
-    </article>
-  </div>
-</section>
+        <!-- PROJECT 2: MENTAL STRENGTH TRACKER -->
+        <article class="card project-card">
+          <h3>02. Mental Strength Tracker</h3>
+          <p>
+            A simple tracker that lets users log how they’re feeling over time and
+            write short notes. It stores data in the browser so users can spot
+            patterns and themes in their mood and resilience.
+          </p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Wellbeing</li>
+          </ul>
+          <div class="project-actions">
+            <a
+              href="https://github.com/latazia-j/mental-strength-tracker"
+              class="btn-secondary btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View code
+            </a>
+            <a
+              href="https://latazia-j.github.io/mental-strength-tracker/"
+              class="btn-primary btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live demo
+            </a>
+          </div>
+        </article>
 
+        <!-- PROJECT 3: PORTFOLIO SITE -->
+        <article class="card project-card">
+          <h3>03. Developer Portfolio (this site)</h3>
+          <p>
+            A responsive portfolio to showcase my journey into software engineering, my
+            mental health–focused projects, and my background in psychosocial work.
+            Includes light/dark mode, smooth scrolling and simple animations.
+          </p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-actions">
+            <a
+              href="https://github.com/latazia-j/dev-portfolio"
+              class="btn-secondary btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View code
+            </a>
+          </div>
+        </article>
 
+        <!-- PROJECT 4: RESILIENCE JOURNAL -->
+        <article class="card project-card">
+          <h3>04. Resilience Journal</h3>
+          <p>
+            A journaling app where users log their daily mood, note one thing they
+            handled well and see stats like total entries, average mood and longest
+            streak of journaling days. Data is stored locally in the browser only.
+          </p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Mental health</li>
+          </ul>
+          <div class="project-actions">
+            <a
+              href="#"
+              class="btn-secondary btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View code (coming soon)
+            </a>
+            <a
+              href="#"
+              class="btn-primary btn-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live demo (coming soon)
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <!-- CONTACT -->
     <section id="contact" class="section">
       <h2>Contact</h2>
       <p>
-        Want to connect about junior / trainee roles, bootcamps, or collaboration?
-        Drop me a message.
+        Open to junior / trainee opportunities, bootcamps, and collaborations on
+        mental health and wellbeing tools.
       </p>
       <div class="contact-grid">
         <div>
           <h3>Details</h3>
           <ul>
-            <li>📧 latazia.joseph1@gmail.com</li>
-            <li>💼 LinkedIn: www.linkedin.com/in/latazia-joseph-8154421b9</li>
-            <li>🧑‍💻 GitHub: https://github.com/latazia-j</li>
+            <li>📧 lataziajoseph1@gmail.com</li>
+            <li>
+              💼 LinkedIn:
+              <a
+                href="https://www.linkedin.com/in/latazia-joseph-8154421b9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin.com/in/latazia-joseph-8154421b9
+              </a>
+            </li>
+            <li>
+              🧑‍💻 GitHub:
+              <a
+                href="https://github.com/latazia-j"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.com/latazia-j
+              </a>
+            </li>
+            <li>
+              🌐 Portfolio:
+              <a
+                href="https://latazia-j.github.io/dev-portfolio/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                latazia-j.github.io/dev-portfolio
+              </a>
+            </li>
           </ul>
         </div>
-        <form class="contact-form" onsubmit="event.preventDefault(); showFormMessage();">
+
+        <form
+          class="contact-form"
+          onsubmit="event.preventDefault(); showFormMessage();"
+        >
           <label>
             Name
             <input type="text" required />
@@ -186,7 +292,9 @@
             Message
             <textarea rows="4" required></textarea>
           </label>
-          <button type="submit" class="btn-primary full-width">Send (demo)</button>
+          <button type="submit" class="btn-primary full-width">
+            Send (demo)
+          </button>
           <p id="form-message" class="form-message" aria-live="polite"></p>
         </form>
       </div>
