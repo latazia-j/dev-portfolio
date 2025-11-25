@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node / tooling (future-proof)
+node_modules/
+dist/
+build/
